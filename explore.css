@@ -1,0 +1,50 @@
+.explore-card {
+    width: 800px;
+    height: 500px;
+    margin: 120px auto;
+    position: relative;
+    overflow: hidden;
+    mix-blend-mode:difference;
+}
+
+.explore-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.explore-card-content {
+    width: 100%;
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    transition: bottom .5s cubic-bezier(1, 0.19, 0.4, 1);
+}
+
+.explore-card-title {
+    font-size: 1.9rem;
+    margin: 1rem 0;
+}
+
+.explore-card-desc {
+    margin-bottom: 1.15rem;
+}
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    border: none;
+    padding: .8rem 1.6rem;
+    border-radius: 50px;
+    color: #000;
+    font-size: .92rem;
+    font-weight: 500;
+}
+
+.explore-card:hover .explore-card-content{
+    bottom: -20px;
+}

@@ -1,0 +1,85 @@
+.zomato-card {
+  width: 350px;
+  margin: 120px auto;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  padding: 12px;
+  transition: box-shadow 0.3s ease;
+}
+
+.zomato-card-header {
+  position: relative;
+}
+
+.zomato-card-header img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.promoted {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #976f7d;
+  color: #c7b4ba;
+  padding: 1px 8px;
+  border-radius: 3.5px;
+  font-size: 0.8rem;
+}
+
+.discount {
+  position: absolute;
+  bottom: 23px;
+  left: 0;
+  color: #fff;
+  background-color: #266fef;
+  padding: 1px 6px;
+}
+
+.delivery-time {
+  position: absolute;
+  bottom: 23px;
+  right: 10px;
+  font-weight: 600;
+  font-size: 0.88rem;
+  background-color: #f7f9f9;
+  padding: 2px 3px;
+  border-radius: 4px;
+}
+
+.zomato-card-title {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.zomato-card-location {
+  color: #828282;
+  font-size: 0.95rem;
+  font-weight: 400;
+  padding-bottom: 0.85rem;
+}
+
+.hr {
+  border: 1px solid #d3d3d382;
+}
+
+.card-footer {
+  width: 100%;
+  padding-top: 0.5rem;
+  position: relative;
+}
+
+.card-footer .safety-desc {
+  font-size: 0.92rem;
+  color: #828282;
+  padding-left: 5.5rem;
+}
+
+.safety-badge-img {
+  height: 26px;
+  position: absolute;
+  top: 15px;
+}
+

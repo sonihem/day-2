@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Day 2 | How To CSS</title>
+    <link rel="stylesheet" href="explore.css" />
+    <link rel="stylesheet" href="zomato-card.css" />
+    <link rel="stylesheet" href="zomato-home.css" />
+    <link rel="stylesheet" href="pofile-card.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="zomato-card cursor-pointer box-shadow">
+        <div class="zomato-card-header">
+          <img src="./assets/zomato-card-img.avif" alt="Food image" />
+          <span class="promoted">Promoted</span>
+          <span class="discount">50% OFF up to 100</span>
+          <span class="delivery-time">38 min</span>
+        </div>
+        <h2 class="zomato-card-title">Center Point Restaurant</h2>
+        <p class="zomato-card-location">North Indian, Chinese</p>
+        <hr class="hr" />
+        <div class="card-footer">
+          <img
+            class="safety-badge-img"
+            src="./assets/safety-badge.avif"
+            alt="Safety badge image"
+          />
+          <p class="safety-desc">
+            Follows all Max Safety measures to ensure your food is safe
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="explore-card cursor-pointer">
+        <img
+          src="https://source.unsplash.com/random/1600*1200/?bali"
+          alt="Bali pictures"
+        />
+        <div class="explore-card-content">
+          <h1 class="explore-card-title">Explore the diversities in Bali</h1>
+          <p class="explore-card-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            similique ullam fugit explicabo dolore nisi, asperiores culpa
+            recusandae libero unde amet voluptas?
+          </p>
+          <button class="btn cursor-pointer">Explore Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="zomato-hero-page">
+        <img class="hero-img" src="./assets/zomato-bg.avif" alt="Foods image" />
+        <div class="hero-content">
+          <img
+            class="zomato-logo"
+            src="./assets/zomato-logo.avif"
+            alt="Zomato logo"
+          />
+          <p class="zomato-desc">Discover the best food & drinks in Lucknow</p>
+          <div class="input-box">
+            <span class="location-option-box">
+              <select class="location-options cursor-pointer" name="location">
+                <option value="lucknow" selected>Lucknow</option>
+                <option value="agra">Agra</option>
+                <option value="patna">Patna</option>
+            </select>
+            <img
+              src="./assets/location-icon.svg"
+              alt="location icon"
+              class="location-icon"
+            />
+            </span>
+            <span class="search-box">
+              <input
+                class="searchbar"
+                type="text"
+                placeholder="Search for restaurant, cuisine or a dish"
+              />
+                <img class="search-icon" src="./assets/search-icon.svg" alt="Search icon">
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="profile-card cursor-pointer box-shadow">
+            <div class="profile-top">
+                <img class="profile-bg-img" src="https://source.unsplash.com/random/100*200/?mountain" alt="mountain image">
+                <img class="profile-img" src="./assets/ashish-sir.jpg" alt="Ashish Shukla Sir">
+            </div>
+            <h2 class="user">Ashish Shukla</h2>
+            <p class="user-position">Founder & CEO at Codekaro</p>
+        </div>
+    </div>
+  </body>
+</html>
